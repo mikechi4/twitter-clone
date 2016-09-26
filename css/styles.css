@@ -173,12 +173,17 @@ body {
 			list-style-type: none;
 		}
 			.tweet-actions li {
-				display: inline-block;
+				display: none;
 				font-size: 12px;
 				color: #2FC2EF;
 				cursor: pointer;
 				margin-right: 2px;
 			}
+
+/*step 6*/
+.tweet:hover > .content > .tweet-actions li{
+	display: inline-block;
+}
 
 	.icon {
 		color: #2FC2EF;
